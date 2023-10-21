@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: "Libre Baskerville", serif;
+  
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(209, 218, 219, 0.312);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: rgb(96, 221, 152);
+    padding: 4px, 10px;
+    cursor: pointer;
+    color: black;
+    border: 2px rgb(180, 194, 207);
+    border-radius: 2px;
+    font-weight: 600;
+    border-style: double;
+    width: fit-content;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: black;
+    border: 2 px solid black;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .logo {
+    font-weight: 700;
+    font-size: 30px;
+    align-items: flex-start;
+    cursor: pointer;
+    color: rgba(38, 84, 177, 0.816);
+  }
+  .logo:hover {
+    /* text-decoration: underline; */
+    font-weight: 1000;
+    color: rgb(57, 72, 95);
+    /* text-decoration-color: rgb(33, 76, 113); */
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+  }
+  nav ul li :hover {
+    text-decoration: underline;
+    font-weight: 1000;
+    color: rgb(79, 70, 70);
+  }
+  input {
+    padding: 4px 10px;
+  }
+  /* img{
+      height: 500px;
+      width: 500px;
+      /* border-radius: 200px; */
+  
+  /* .hero-right-section{
+      display:  flex;
+      align-items: center;
+  } */
+  
+  .Main-Section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero_left-section h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .hero_left-section h1 span {
+    color: rgb(61, 219, 188);
+    font-weight: 900;
+    font-size: 2.5 rem;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgba(87, 168, 142, 0.095);
+  }
+  
+  .hero_left-section p span {
+    font-weight: 700px;
+    color: rgb(61, 219, 188);
+    font-size: 20px;
+  }
+  
+  .hero-right-section{
+     display: flex;
+  width: 50%;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+  }
+  .footer{
+      display: flex;
+      align-items: center;
+      padding: 20px 0px;
+      justify-content: space-around;
+  }
+  footer ul{
+      display: flex;
+      gap: 30px;
+   
+  }
+  
+  footer ul li{
+      height: 20px;
+      width: 20px;
+     padding: 20px;
+    
+  }
+  
